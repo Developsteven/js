@@ -1,5 +1,5 @@
 function TipoMotor(x) {
-    x = 3;
+    
     switch (x) {
         case 0:
             document.write("No hay establecido un valor definido para el tipo de bomba");
@@ -21,13 +21,13 @@ function TipoMotor(x) {
 
     }
 }
-TipoMotor();
+TipoMotor(1);
 
 
 // 2
 function obtenerValorConImpuesto(a, b) {
     
-    var m = (a + b)
+    var m = (a * b)
     console.log(m);
 
     switch (b) {
@@ -38,8 +38,8 @@ function obtenerValorConImpuesto(a, b) {
             alert("El valor sin impuestos mas el 10% si el tipo de producto es 2");
             break;
         case 3:
-            alet("El valor sin impuestos mas el 5% si el tipo de producto es 3");
+            alet("El valor sin impuestos mas el 5% si el tipo de producto es 3" );
             break;
     }
 }
-obtenerValorConImpuesto(100,1)
+obtenerValorConImpuesto(100,2)
