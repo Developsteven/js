@@ -26,16 +26,19 @@ TipoMotor();
 
 // 2
 function obtenerValorConImpuesto(a, b) {
-    x = 3;
-    switch (x) {
-        case 0:
-            document.write("El valor sin impuestos mas el 21% si el tipo de producto es 1");
+    
+    var m = (a + b)
+    console.log(m);
+    switch (m) {
+        case 1:
+            alert("El valor sin impuestos mas el 21% si el tipo de producto es 1");
             break;
         case 1:
-            document.write("El valor sin impuestos mas el 10% si el tipo de producto es 2");
+            alert("El valor sin impuestos mas el 10% si el tipo de producto es 2");
             break;
         case 2:
-            document.write("El valor sin impuestos mas el 5% si el tipo de producto es 3");
+            alert("El valor sin impuestos mas el 5% si el tipo de producto es 3");
             break;
     }
 }
+obtenerValorConImpuesto(100,21)
