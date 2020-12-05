@@ -29,16 +29,17 @@ function obtenerValorConImpuesto(a, b) {
     
     var m = (a + b)
     console.log(m);
-    switch (m) {
+
+    switch (b) {
         case 1:
             alert("El valor sin impuestos mas el 21% si el tipo de producto es 1");
             break;
-        case 1:
+        case 2:
             alert("El valor sin impuestos mas el 10% si el tipo de producto es 2");
             break;
-        case 2:
-            alert("El valor sin impuestos mas el 5% si el tipo de producto es 3");
+        case 3:
+            alet("El valor sin impuestos mas el 5% si el tipo de producto es 3");
             break;
     }
 }
-obtenerValorConImpuesto(100,21)
+obtenerValorConImpuesto(100,1)
