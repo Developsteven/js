@@ -1,6 +1,6 @@
 function TipoMotor(x) {
     x = 3;
-    switch (x){
+    switch (x) {
         case 0:
             document.write("No hay establecido un valor definido para el tipo de bomba");
             break;
@@ -22,4 +22,20 @@ function TipoMotor(x) {
     }
 }
 TipoMotor();
+
+
 // 2
+function obtenerValorConImpuesto(a, b) {
+    x = 3;
+    switch (x) {
+        case 0:
+            document.write("El valor sin impuestos mas el 21% si el tipo de producto es 1");
+            break;
+        case 1:
+            document.write("El valor sin impuestos mas el 10% si el tipo de producto es 2");
+            break;
+        case 2:
+            document.write("El valor sin impuestos mas el 5% si el tipo de producto es 3");
+            break;
+    }
+}
