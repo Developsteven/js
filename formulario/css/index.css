@@ -1,0 +1,22 @@
+form{
+    font: 1em sans-serif;
+    max-width: 320px;
+}
+
+p > label{
+    display: block;
+}
+input[type="number"],
+input[type="text"],
+fieldset{
+    width: 100%;
+    border: 1px solid royalblue;
+    box-sizing: border-box;
+}
+input:invalid{
+    box-shadow: 0 0 5px 1px blueviolet;
+}
+
+input:focus:invalid{
+    box-shadow: none;
+}
